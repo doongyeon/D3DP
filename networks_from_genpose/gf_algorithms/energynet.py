@@ -8,7 +8,7 @@ from networks.gf_algorithms.samplers import cond_ode_likelihood, cond_ode_sample
 from networks.gf_algorithms.scorenet import GaussianFourierProjection
 from networks.pts_encoder.pointnet2 import Pointnet2ClsMSG
 from networks.pts_encoder.pointnets import PointNetfeat
-from utils.genpose_utils import get_pose_dim
+from utils_from_genpose.genpose_utils import get_pose_dim
 
 
 def zero_module(module):

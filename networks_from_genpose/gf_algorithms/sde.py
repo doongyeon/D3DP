@@ -5,7 +5,7 @@ import torch
 import numpy as np
 from ipdb import set_trace
 from scipy import integrate
-from utils.genpose_utils import get_pose_dim
+from utils_from_genpose.genpose_utils import get_pose_dim
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 

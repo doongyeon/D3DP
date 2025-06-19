@@ -7,8 +7,8 @@ import torch.nn.functional as F
 sys.path.append(os.getcwd())
 
 from ipdb import set_trace
-from utils.genpose_utils import get_pose_dim
-from utils.metrics import get_metrics
+from utils_from_genpose.genpose_utils import get_pose_dim
+from utils_from_genpose.metrics import get_metrics
 
 
 class RewardModel(nn.Module):

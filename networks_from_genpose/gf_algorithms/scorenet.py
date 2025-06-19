@@ -6,7 +6,7 @@ import torch.nn as nn
 
 from ipdb import set_trace
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-from utils.genpose_utils import get_pose_dim
+from utils_from_genpose.genpose_utils import get_pose_dim
 from networks.decoder_head.rot_head import RotHead
 from networks.decoder_head.trans_head import TransHead
 

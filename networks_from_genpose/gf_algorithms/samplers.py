@@ -6,8 +6,8 @@ import numpy as np
 from scipy import integrate
 from ipdb import set_trace
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-from utils.genpose_utils import get_pose_dim
-from utils.misc import normalize_rotation
+from utils_from_genpose.genpose_utils import get_pose_dim
+from utils_from_genpose.misc import normalize_rotation
 
 
 def global_prior_likelihood(z, sigma_max):
